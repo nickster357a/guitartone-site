@@ -1,61 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Impact of Wood on a Guitars Tone</title>
-    
+    <title>Tonewoods | Home</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <style>
+        body, h1, h2, h3, h4 { font-family: "Lato", sans-serif; }
+        .hero-home { 
+            height: 60vh; 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('imgs/luthier.jpg') center/cover no-repeat; 
+        }
+    </style>
 </head>
-
-<body class="w3-black" style="font-family: 'Lato', sans-serif;">
+<body class="w3-black">
 
 <div class="w3-top w3-center" style="padding-top: 15px; z-index: 99;">
     <div class="w3-bar w3-dark-grey w3-card-4 w3-round-xxlarge" style="display: inline-block; width: auto;">
-        <a href="#home" class="w3-bar-item w3-button w3-round-xxlarge">Home</a>
-        <a href="#mahogany" class="w3-bar-item w3-button w3-round-xxlarge">Mahogany</a>
-        <a href="#maple" class="w3-bar-item w3-button w3-round-xxlarge">Maple</a>
+        <a href="index.html" class="w3-bar-item w3-button w3-round-xxlarge w3-light-grey">Home</a>
+        <a href="electric.html" class="w3-bar-item w3-button w3-round-xxlarge">Electric</a>
+        <a href="acoustic.html" class="w3-bar-item w3-button w3-round-xxlarge">Acoustic</a>
+        <a href="classical.html" class="w3-bar-item w3-button w3-round-xxlarge">Classical</a>
     </div>
 </div>
 
-<header id="home" class="w3-container w3-display-container w3-center" style="height: 100vh; padding: 0; overflow: hidden; background: #000;">
-    <img src="imgs/luthier.jpg" alt="Luthier Shop" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.6;">
+<header class="w3-display-container w3-center hero-home">
     <div class="w3-display-middle w3-text-white">
-        <h1 class="w3-jumbo w3-animate-top">The Impact of Wood on a Guitars Tone</h1>
-        <hr class="w3-border-grey" style="margin:auto;width:40%">
-        <p class="w3-large w3-center">How Wood Effects Your Sound.</p>
+        <h1 class="w3-xxlarge w3-animate-top">The Soul of the Instrument</h1>
+        <hr class="w3-border-grey" style="margin:auto; width:40%">
+        <p class="w3-large">A guide to how wood selection defines your unique sound.</p>
     </div>
 </header>
 
-<main class="w3-container">
-    
-    <div class="w3-row" id="mahogany" style="padding-top: 150px; padding-bottom: 200px;">
-        <div class="w3-col l8 m10" style="float:none; margin:auto;">
-            <div class="w3-card-4 w3-dark-grey">
-                <img src="imgs/mahogany.jpg" alt="Mahogany Wood" style="width:100%; height:450px; object-fit:cover;">
-                <div class="w3-container w3-center w3-padding-32">
-                    <h2>Mahogany</h2>
-                    <p>Mahogany is known for its warm, dark tones. It provides a punchy sound with great sustain, making it a staple for blues and rock guitarists.</p>
+<main class="w3-container w3-padding-64">
+    <div class="w3-content" style="max-width:1100px">
+        <div class="w3-row-padding">
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card-4 w3-dark-grey">
+                    <div class="w3-container w3-center w3-padding-24">
+                        <h3>Electric</h3>
+                        <p>Focusing on sustain and the magnetic properties of solid builds.</p>
+                        <a href="electric.html" class="w3-button w3-block w3-grey w3-round">View Electric</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card-4 w3-dark-grey">
+                    <div class="w3-container w3-center w3-padding-24">
+                        <h3>Acoustic</h3>
+                        <p>Exploring the projection and resonance of the soundboard.</p>
+                        <a href="acoustic.html" class="w3-button w3-block w3-grey w3-round">View Acoustic</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <div class="w3-card-4 w3-dark-grey">
+                    <div class="w3-container w3-center w3-padding-24">
+                        <h3>Classical</h3>
+                        <p>Traditional wood pairings for nylon-string warmth and clarity.</p>
+                        <a href="classical.html" class="w3-button w3-block w3-grey w3-round">View Classical</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="w3-row" id="maple" style="padding-top: 150px; padding-bottom: 200px;">
-        <div class="w3-col l8 m10" style="float:none; margin:auto;">
-            <div class="w3-card-4 w3-dark-grey">
-                <img src="imgs/maple.jpg" alt="Maple Wood" style="width:100%; height:450px; object-fit:cover;">
-                <div class="w3-container w3-center w3-padding-32">
-                    <h2>Maple</h2>
-                    <p>Maple is a dense wood that produces a bright, snappy high-end with clear note definition, making it perfect for lead playing.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
 </main>
-
-</body>
-</html>
